@@ -1,18 +1,6 @@
-let myPoints = 3
+var purchaseBtn;
+var err;
 
-function add3points(){
-    myPoints += 3
+function purchase(){
+    
 }
-
-function remove1Point(){
-    myPoints -= 1
-}
-
-add3points()
-add3points()
-add3points()
-remove1Point()
-remove1Point()
-
-
-console.log(myPoints);
